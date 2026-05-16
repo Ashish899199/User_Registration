@@ -12,6 +12,7 @@ public class UserController {
     private final UserService userService;
 
     public UserController(UserService userService) {
+        System.out.println("Add new changes ");
         this.userService = userService;
     }
 
