@@ -22,6 +22,11 @@ public class UserController {
         return userService.saveUser(user);
     }
 
+    public String userAuth(@RequestBody User user) {
+        System.out.println("Add new changes in feature branch");
+       return "User authentication success";
+    }
+
     // READ ALL
     @GetMapping(value = "/get")
     public List<User> getAllUsers() {
