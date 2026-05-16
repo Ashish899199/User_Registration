@@ -12,7 +12,7 @@ public class UserController {
     private final UserService userService;
 
     public UserController(UserService userService) {
-        System.out.println("Add new changes in freature branch");
+        System.out.println("Add new changes in feature branch");
         this.userService = userService;
     }
 
